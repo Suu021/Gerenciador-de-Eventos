@@ -1,8 +1,6 @@
 # <h1>Gerenciador de Eventos</h1> 
 
- <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-<img src="https://img.shields.io/static/v1?label=python&message=3.7&color=blue&style=for-the-badge&logo=PYTHON"/>
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+ <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/><img src="https://img.shields.io/static/v1?label=python&message=3.7&color=blue&style=for-the-badge&logo=PYTHON"/><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 
 Status do Projeto: :warning: em desenvolvimento
 
