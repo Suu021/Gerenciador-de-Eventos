@@ -35,15 +35,15 @@ Ao consultar uma sala cadastrada ou um espaço de café, o sistema deve retornar
 
 :heavy_check_mark: Cadastro de pessoas, com nome e sobrenome;  
 
-:heavy_check_mark: Cadastro de salas do evento, com nome e lotação;
+:heavy_check_mark: Cadastro de salas de evento, com nome e lotação;
 
 :heavy_check_mark: Cadastro de salas de café, com nome e lotação; 
 
-:heavy_check_mark: Consulta de todos os dados de cadastros  
+:heavy_check_mark: Consulta de todos os dados de cadastros;  
 
-:heavy_check_mark: A criação automática do evento conforme os dados cadastrados
+:heavy_check_mark: A criação automática do evento conforme os dados cadastrados;
 
-:heavy_check_mark: Persistência dos dados, salvos em arquivos json
+:heavy_check_mark: Persistência dos dados, salvos em arquivos json.
 
 
 ## Layout ou Deploy da Aplicação :dash:
