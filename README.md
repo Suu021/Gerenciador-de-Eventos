@@ -12,7 +12,7 @@ Status do Projeto: :warning: em desenvolvimento
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-dash)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
@@ -46,7 +46,7 @@ Ao consultar uma sala cadastrada ou um espaço de café, o sistema deve retornar
 :heavy_check_mark: Persistência dos dados, salvos em arquivos json.
 
 
-## Layout ou Deploy da Aplicação :dash:
+## Layout da Aplicação :dash:
 
 Em breve...
 
