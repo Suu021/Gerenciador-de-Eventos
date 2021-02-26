@@ -54,7 +54,7 @@ A aplicação usa apenas bibliotecas nativas do python: os.path, json, unittest.
 
 ## Instruções para a compilação e uso
 
-Compilação:
+<h3>Compilação:</h3>
 
 1º Instalar o "auto-py-to-exe" com o comando "pip install auto-py-to-exe" no terminal do seu sistema operacional. Qualquer dúvida, você pode consultar as informações disponíveis no site oficial: <a href="https://pypi.org/project/auto-py-to-exe/">auto-py-to-exe</a>
 
@@ -65,7 +65,7 @@ Compilação:
 ![img.png](img.png)
 
 
-Uso:
+<h3>Uso:</h3>
 
 1º Entrar no diretório aonde escolheu salvar a compilação da aplicação e execute o "Gerenciador de eventos.exe"
 
