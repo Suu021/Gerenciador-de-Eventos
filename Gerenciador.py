@@ -3,6 +3,7 @@ from os.path import isfile
 from Cafés import Cafe
 from Participantes import Participante
 from Salas import Sala
+from tabulate import tabulate
 
 
 # Função para salvar os dados em um json ou criar um json para salvar os dados caso ainda não exista
@@ -132,17 +133,13 @@ while not sair:
             f_nome_p = formatar_nome(nome_p)
             contador_pesquisa = 0
             for p in dados_p:
-                if p["Sala_etapa1"] is " " and p["Sala_etapa2"] is " " and p["Sala_café"] is " ":
+                if p["Sala_etapa1"] == " " and p["Sala_etapa2"] == " " and p["Sala_café"] == " ":
                     print("Precisa criar um evento primeiro para obter os dados completos!")
                 elif f_nome_p == p["Nome completo"]:
                     print("=-=" * 20)
-                    print("Nome: {}\n"
-                          "Sobrenome: {}\n"
-                          "Sala - etapa 1: {}\n"
-                          "Sala - etapa 2: {}\n"
-                          "Café_intervalo1: {}\n"
-                          "Café_intervalo2: {}".format(p["Nome"], p["Sobrenome"], p["Sala_etapa1"], p["Sala_etapa2"],
-                                                    p["Café_intervalo1"], p["Café_intervalo2"]))
+                    tabela_p = [[p["Nome"], p["Sobrenome"], p["Sala_etapa1"], p["Sala_etapa2"],
+                                 p["Café_intervalo1"], p["Café_intervalo2"]]]
+                    print(tabulate(tabela_p, headers=["Nome", "Sobrenome", "Sala_etapa1", "Sala_etapa2", "Café_intervalo1", "Café_intervalo2"], tablefmt="grid"))
                     print("=-=" * 20)
                 else:
                     contador_pesquisa += 1
@@ -159,13 +156,11 @@ while not sair:
                     print("Precisa criar um evento primeiro para obter os dados completos!")
                 elif f_nome_s == sala["Nome"]:
                     print("=-=" * 20)
-                    print("Nome: {}\n"
-                          "Lotação: {}\n"
-                          "Participantes - etapa 1: {}\n"
-                          "Participantes - etapa 2: {}".format(sala["Nome"], sala["Lotação"],
-                                                               sala["Participantes - etapa 1"],
-                                                               sala["Participantes - etapa 2"]))
+                    tabela_s = [[sala["Nome"], sala["Lotação"], ('\n'.join(map(str, sala["Participantes - etapa 1"]))),
+                                 ('\n'.join(map(str, sala["Participantes - etapa 2"])))]]
+                    print(tabulate(tabela_s, headers=["Nome", "Lotação", "Participantes - etapa 1", "Participantes - etapa 2"], tablefmt="grid"))
                     print("=-=" * 20)
+
                 else:
                     contador_pesquisa += 1
 
@@ -181,12 +176,11 @@ while not sair:
                     print("Precisa criar um evento primeiro para obter os dados completos!")
                 elif f_nome_c == sala["Nome"]:
                     print("=-=" * 20)
-                    print("Nome: {}\n"
-                          "Lotação: {}\n"
-                          "Participantes_intervalo1: {}\n"
-                          "Participantes_intervalo2: {}".format(sala["Nome"], sala["Lotação"],
-                                                               sala["Participantes_intervalo1"],
-                                                               sala["Participantes_intervalo2"]))
+                    tabela_c = [[sala["Nome"], sala["Lotação"], ('\n'.join(map(str, sala["Participantes_intervalo1"]))),
+                                 ('\n'.join(map(str, sala["Participantes_intervalo2"])))]]
+                    print(tabulate(tabela_c,
+                                   headers=["Nome", "Lotação", "Participantes_intervalo1", "Participantes_intervalo2"],
+                                   tablefmt="grid"))
                     print("=-=" * 20)
                 else:
                     contador_pesquisa += 1

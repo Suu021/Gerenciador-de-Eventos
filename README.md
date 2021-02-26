@@ -50,7 +50,9 @@ Em breve...
 
 ## Pré-requisitos
 
-A aplicação usa apenas bibliotecas nativas do python: os.path, json, unittest.
+A aplicação usa as seguintes bibliotecas nativas do python: os.path, json, unittest.
+
+E também usa a biblioteca externa "tabulate", para instalá-la basta digitar "pip install tabulate" no terminal do seu sistema operacional. Qualquer dúvida, você pode consultar as informações disponíveis no site oficial: <a href="https://pypi.org/project/tabulate/">tabulate 0.8.9</a>
 
 ## Instruções para a compilação e uso
 
