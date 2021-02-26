@@ -46,25 +46,35 @@ Ao consultar uma sala cadastrada ou um espaço de café, o sistema deve retornar
 
 ## Layout da Aplicação :dash:
 
-Em breve...
+<h3>Tela inicial</h3>
+
+![Tela inicial.jpg](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Tela%20inicial.JPG)
+
+<h3>Amostras de execução da aplicação</h3>
+
+![Amostra de execução](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Amostra%20de%20execu%C3%A7%C3%A3o.JPG)
+![Amostra de dados](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Amostra%20dos%20dados.JPG)
+![Amostra de dados2](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Amostra%20dos%20dados2.JPG)
 
 ## Pré-requisitos
 
 A aplicação usa as seguintes bibliotecas nativas do python: os.path, json, unittest.
 
-E também usa a biblioteca externa "tabulate", para instalá-la basta digitar "pip install tabulate" no terminal do seu sistema operacional. Qualquer dúvida, você pode consultar as informações disponíveis no site oficial: <a href="https://pypi.org/project/tabulate/">tabulate 0.8.9</a>
+E também usa a biblioteca externa <a href="https://pypi.org/project/tabulate/">tabulate 0.8.9</a>, para instalá-la basta digitar "pip install tabulate" no terminal do seu sistema operacional.
 
 ## Instruções para a compilação e uso
 
 <h3>Compilação:</h3>
 
-1º Instalar o "auto-py-to-exe" com o comando "pip install auto-py-to-exe" no terminal do seu sistema operacional. Qualquer dúvida, você pode consultar as informações disponíveis no site oficial: <a href="https://pypi.org/project/auto-py-to-exe/">auto-py-to-exe</a>
+1º Instalar o <a href="https://pypi.org/project/auto-py-to-exe/">auto-py-to-exe</a> com o comando "pip install auto-py-to-exe" no terminal do seu sistema operacional.
 
-2º Clonar o repositório da aplicação para o seu PC, disponível em <a href="https://github.com/Suu021/Gerenciador-de-Eventos">Gerenciador de eventos</a>. 
+2º Clonar o repositório da aplicação para o seu PC, disponível em <a href="https://github.com/Suu021/Gerenciador-de-Eventos.git">Gerenciador de eventos</a>. 
 
-3º Executar o "auto-py-to-exe" e colocar como "Script Location" o diretório do arquivo "Gerenciador.py", na opção "Onefile" escolha "One Directory", na opção "Console Window" escolha "Console Based", na opção "Additional Files" coloque os diretórios dos arquivos "Cafés.py", "Participantes.py" e "Salas.py". Na opção "Settings", em "Output Directory" você pode escolher o diretório aonde será salva a compilação da aplicação.
+3º Executar o "auto-py-to-exe" pelo terminal e colocar como "Script Location" o diretório do arquivo "Gerenciador.py", na opção "Onefile" escolha "One Directory", na opção "Console Window" escolha "Console Based", na opção "Additional Files" coloque os diretórios dos arquivos "Cafés.py", "Participantes.py" e "Salas.py". Na opção "Settings", em "Output Directory" você pode escolher o diretório aonde será salva a compilação da aplicação.
 
 ![Auto-py-to-exe.jpg](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Auto-py-to-exe.jpg)
+
+4º Clicar no botão "Convert .py to .exe"
 
 
 <h3>Uso:</h3>
@@ -78,10 +88,6 @@ E também usa a biblioteca externa "tabulate", para instalá-la basta digitar "p
 4º Consultar os dados cadastrados e os dados gerados com a aplicação.
 
 5º Quando fechar o executável os dados serão salvos em arquivos json.
-
-## JSON :floppy_disk:
-
-Em breve...
 
 ## Licença 
 
