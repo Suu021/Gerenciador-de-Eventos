@@ -10,11 +10,11 @@ Status do Projeto: :warning: em desenvolvimento
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-dash)
+:small_blue_diamond: [Layout da Aplicação](#Layout-da-aplicação-dash)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Pré-requisitos](#Pré-requisitos)
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:small_blue_diamond: [Instruções para a compilação e uso](#Instruções-para-a-compilação-e-uso)
 
 ## Descrição do projeto 
 
@@ -52,13 +52,30 @@ Em breve...
 
 A aplicação usa apenas bibliotecas nativas do python: os.path, json, unittest.
 
-## Instruções de uso
+## Instruções para a compilação e uso
 
-1º Fazer o cadastro de todos os participantes, salas de evento e espaços de café.
+Compilação:
 
-2º Ir na opção "Organizar novo evento com os dados já cadastrados", para que a aplicação cumpra com a função proposta de sua criação.
+1º Instalar o "auto-py-to-exe" com o comando "pip install auto-py-to-exe" no terminal do seu sistema operacional. Qualquer dúvida, você pode consultar as informações disponíveis no site oficial: <a href="https://pypi.org/project/auto-py-to-exe/">auto-py-to-exe</a>
 
-3º Consultar os dados cadastrados e os dados gerados com a aplicação.
+2º Clonar o repositório da aplicação para o seu PC, disponível em <a href="https://github.com/Suu021/Gerenciador-de-Eventos">Gerenciador de eventos</a>. 
+
+3º Executar o "auto-py-to-exe" e colocar como "Script Location" o diretório do arquivo "Gerenciador.py", na opção "Onefile" escolha "One Directory", na opção "Console Window" escolha "Console Based", na opção "Additional Files" coloque os diretórios dos arquivos "Cafés.py", "Participantes.py" e "Salas.py". Na opção "Settings", em "Output Directory" você pode escolher o diretório aonde será salva a compilação da aplicação.
+
+![img.png](img.png)
+
+
+Uso:
+
+1º Entrar no diretório aonde escolheu salvar a compilação da aplicação e execute o "Gerenciador de eventos.exe"
+
+2º Fazer o cadastro de todos os participantes, salas de evento e espaços de café.
+
+3º Ir na opção "Organizar novo evento com os dados já cadastrados", para que a aplicação cumpra com a função proposta de sua criação.
+
+4º Consultar os dados cadastrados e os dados gerados com a aplicação.
+
+5º Quando fechar o executável os dados serão salvos em arquivos json.
 
 ## JSON :floppy_disk:
 
