@@ -62,7 +62,7 @@ A aplicação usa apenas bibliotecas nativas do python: os.path, json, unittest.
 
 3º Executar o "auto-py-to-exe" e colocar como "Script Location" o diretório do arquivo "Gerenciador.py", na opção "Onefile" escolha "One Directory", na opção "Console Window" escolha "Console Based", na opção "Additional Files" coloque os diretórios dos arquivos "Cafés.py", "Participantes.py" e "Salas.py". Na opção "Settings", em "Output Directory" você pode escolher o diretório aonde será salva a compilação da aplicação.
 
-![img.png](img.png)
+![Auto-py-to-exe.jpg](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Auto-py-to-exe.jpg)
 
 
 <h3>Uso:</h3>
