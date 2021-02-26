@@ -37,7 +37,7 @@ Ao consultar uma sala cadastrada ou um espaço de café, o sistema deve retornar
 
 :heavy_check_mark: Cadastro de salas de café, com nome e lotação; 
 
-:heavy_check_mark: Consulta de todos os dados de cadastros;  
+:heavy_check_mark: Consulta de todos os dados cadastrados e gerados pela aplicação;  
 
 :heavy_check_mark: A criação automática do evento conforme os dados cadastrados;
 
