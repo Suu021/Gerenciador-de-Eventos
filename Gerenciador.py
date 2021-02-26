@@ -6,7 +6,7 @@ from Salas import Sala
 from tabulate import tabulate
 
 
-# Função para salvar os dados em um json ou criar um json para salvar os dados caso ainda não exista
+# Função para salvar os dados em um json.
 def salvar_dados(nomedojson, file):
     with open(nomedojson, "w", encoding="utf-8") as dados:
         return dump(file, dados, indent=2, separators=(",", ": "), ensure_ascii=False)
