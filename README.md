@@ -1,8 +1,8 @@
 # <h1>Gerenciador de Eventos</h1> 
 
- <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/><img src="https://img.shields.io/static/v1?label=python&message=3.7&color=blue&style=for-the-badge&logo=PYTHON"/><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+ <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/><img src="https://img.shields.io/static/v1?label=python&message=3.7&color=blue&style=for-the-badge&logo=PYTHON"/><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 
-Status do Projeto: :warning: em desenvolvimento
+Status do Projeto: :heavy_check_mark: Concluído
 
 ### Tópicos 
 
@@ -70,7 +70,7 @@ E também usa a biblioteca externa <a href="https://pypi.org/project/tabulate/">
 
 2º Clonar o repositório da aplicação para o seu PC, disponível em <a href="https://github.com/Suu021/Gerenciador-de-Eventos.git">Gerenciador de eventos</a>. 
 
-3º Executar o "auto-py-to-exe" pelo terminal e colocar como "Script Location" o diretório do arquivo "Gerenciador.py", na opção "Onefile" escolha "One Directory", na opção "Console Window" escolha "Console Based", na opção "Additional Files" coloque os diretórios dos arquivos "Cafés.py", "Participantes.py" e "Salas.py". Na opção "Settings", em "Output Directory" você pode escolher o diretório aonde será salva a compilação da aplicação.
+3º Executar o "auto-py-to-exe" pelo terminal e colocar como "Script Location" o diretório do arquivo "Gerenciador.py", na opção "Onefile" escolha "One Directory", na opção "Console Window" escolha "Console Based", na opção "Additional Files" coloque os diretórios dos arquivos "Menu", "Cafés.py", "Participantes.py" e "Salas.py". Na opção "Settings", em "Output Directory" você pode escolher o diretório aonde será salva a compilação da aplicação.
 
 ![Auto-py-to-exe.jpg](https://raw.githubusercontent.com/Suu021/Gerenciador-de-Eventos/main/Imagens/Auto-py-to-exe.jpg)
 
